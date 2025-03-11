@@ -1,0 +1,76 @@
+section{
+    display: flex;
+    justify-content: center;
+}
+main{
+    background-color:#fff;
+    border-radius: 5px;
+    padding: 20px;
+}
+img{
+    height: 400px;
+    width: 280px;
+    object-fit: cover
+}
+.det{
+    margin:20px 0 0 20px;
+    font-size: larger;
+}
+details{
+    margin-bottom: 10px;
+    :hover{
+        cursor: pointer;
+    }
+}
+.det details ul{
+    margin:4px 0 15px -13px;
+}
+form{
+    border: 1px solid rgb(170, 156, 170);
+    background-color: rgba(230, 230, 230, 0.3);
+    width: 60%;
+    border-radius: 5px;
+    font-size: larger;
+}
+.form-control{
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid rgba(170, 156, 170,.3);
+    padding: 8px;
+    font-size: larger;
+
+}
+
+.form-control:focus{
+    box-shadow: 0 0 20px rgb(159, 202, 247);
+    outline: none;
+}
+.feed{
+    display: flex;
+    justify-content: center;
+}
+.sub{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.sub button{
+    width: 80%;
+}
+@media screen and (orientation : landscape) {
+    main{
+        margin-top: 6%;
+        margin-bottom: 6%;
+        width: 80%;
+    }
+}
+@media screen and (orientation : portrait) {
+    main{
+        margin-top: 3%;
+        width: 90%;
+    }
+    section{
+        display: flex;
+        justify-content: center;
+    }
+}

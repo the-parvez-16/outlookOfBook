@@ -10,13 +10,13 @@
 <body>
     <header>
         <div class="head">
-            <h1>Welcome to Book Showcase</h1>
+            <h1>Book Showcase : Book 2 Details</h1>
         </div>
         <nav>
             <a href="../../index.html">
                 <button class="btn-primary">Home</button>
             </a>
-            <a href="">
+            <a href="../html/contact.html">
                 <button class="btn-primary">Contact</button>
             </a>
         </nav>
@@ -24,21 +24,22 @@
     <section>
         <main>
             <h1>Book 2 : The Web Application Hacker's Handbook : Second Edition</h1>
-            <img src="../../Images/b2.webp" alt="">
+            <img src="../../Images/b2.jpg" alt="">
             <div class="det">
                 <details>
                     <summary><strong>Genre</strong></summary>
                     <ul>
-                        <li>Technology</li>
-                        <li>Education</li>
+                        <li>Cybersecurity</li>
+                        <li>Computer Science</li>
+                        <li>Technical guide</li>
                     </ul>
                 </details>
                 <details>
                     <summary><strong>Index Page</strong></summary>
                     <ul>
                         <li>Introduction</li>
-                        <li>Chapter 1 : Overview</li>
-                        <li>Chapter 2 : Advanced Concepts</li>
+                        <li>Chapter 1 : Web Application (In)security</li>
+                        <li>Chapter 2 : Core Defense Mechanisms</li>
                     </ul>
                 </details>
                 <details>
@@ -49,7 +50,7 @@
                 </details>
                 <details>
                     <summary><strong>Overview</strong></summary>
-                    <p>The "Web Application Hacker's Handbook, 2nd Edition" by Dafydd Stuttard and Marcus Pinto is a practical guide that focuses on discovering and exploiting security flaws in web applications. </p>
+                    <p>The Web Application Hacker’s Handbook: Second Edition is a detailed guide to web security, covering vulnerabilities like SQL injection and XSS, along with testing and defense strategies. Ideal for security professionals and developers.</p>
                 </details>
                 <details>
                     <summary><strong>Competitive</strong></summary>
@@ -57,31 +58,36 @@
                 </details>
                 <details>
                     <summary><strong>Purchase link</strong></summary>
-                    <button>Amazon</button>
+                    <ul type="none">
+                        <li><a href="https://www.amazon.com/Web-Application-Hackers-Handbook-Exploiting/dp/1118026470" style="text-decoration: underline;">Amazon</a></li>
+                    </ul>
                 </details>
             </div>
             <h1>Feedback Form</h1>
             <div class="feed">
                 <form>
-                    <ul type="none">
-                        <li><strong>Name:</strong></li>
-                        <li><input type="text" name="" id="" class="form-control"></li>
-                        <br>
-                        <li><strong>Feedback :</strong></li>
-                        <li><textarea name="" id="" class="form-control"></textarea></li>
-                    </ul>
+                    <div class="inp">
+                        <div class="inp-label">
+                            <label for="usrName"><strong>Name :</strong></label>
+                        </div>
+                        <input type="text" name="" id="usrName" class="form-control">
+                    </div><br>
+                    <div class="inp">
+                        <div class="inp-label">
+                            <label for="feedback"><strong>Feedback :</strong></label>
+                        </div>
+                        <textarea name="" id="" class="form-control"></textarea>
+                    </div><br>
                     <div class="sub">
-                        <button class="btn-primary">Submit Feedback</button>
+                        <button class="btn-primary" style="margin-right: 0px;">Submit Feedback</button>
                     </div>
-            </form>
+                </form>
             </div>
-            
-
         </main>
     </section>
 
     <footer>
-        <p>©️ 2025 Book Showcase | All rights reserved</p>
+        <p>© 2025 Book Showcase | All rights reserved</p>
     </footer>
 </body>
 </html>
